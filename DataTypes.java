@@ -20,11 +20,21 @@ public class DataTypes
         System.out.println(String2);
         System.out.println(String3);
         System.out.println(stringsEqual);
+        System.out.println(" ");
         
-        String[] strArray = {"Alpha:","Bravo","Charlie","Delta","Echo"};
+        String[] strArray = {"Alpha","Bravo","Charlie","Delta","Echo"};
         for  (int iterate = 0; iterate < strArray.length; iterate++) {
             System.out.println(strArray[iterate]);
         }
-        
+        for (int iterate = 0; iterate < strArray.length; iterate++) {
+            System.out.print(strArray[iterate]);
+        }
+        System.out.println(" ");
+        for (int iterate = 0; iterate < strArray.length; iterate++) {
+            System.out.print(strArray[iterate]);
+            System.out.print("-");
+            if (iterate.equals[strArray.length]) {
+                System.out.print(\b);
+        }
         }
     }
