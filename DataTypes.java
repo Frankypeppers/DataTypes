@@ -22,6 +22,7 @@ public class DataTypes
         System.out.println(stringsEqual);
         System.out.println(" ");
         
+        
         String[] strArray = {"Alpha","Bravo","Charlie","Delta","Echo"};
         for  (int iterate = 0; iterate < strArray.length; iterate++) {
             System.out.println(strArray[iterate]);
@@ -32,9 +33,9 @@ public class DataTypes
         System.out.println(" ");
         for (int iterate = 0; iterate < strArray.length; iterate++) {
             System.out.print(strArray[iterate]);
-            System.out.print("-");
-            if (iterate.equals[strArray.length]) {
-                System.out.print(\b);
-        }
+            if (iterate < 4) {
+                System.out.print("-");
+            }
         }
     }
+}
