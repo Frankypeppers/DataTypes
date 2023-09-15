@@ -23,7 +23,7 @@ public class DataTypes
         System.out.println(" ");
         
         
-        String[] strArray = {"Alpha","Bravo","Charlie","Delta","Echo"};
+        String[] strArray = {"Alpha","Bravo","Charlie","Delta","Echo","Foxtrot"};
         for  (int iterate = 0; iterate < strArray.length; iterate++) {
             System.out.println(strArray[iterate]);
         }
@@ -33,7 +33,7 @@ public class DataTypes
         System.out.println(" ");
         for (int iterate = 0; iterate < strArray.length; iterate++) {
             System.out.print(strArray[iterate]);
-            if (iterate < 4) {
+            if (iterate < strArray.length-1) {
                 System.out.print("-");
             }
         }
